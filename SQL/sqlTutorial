@@ -1,0 +1,82 @@
+Drop table Sales;
+
+Drop table Sales_Rep;
+
+Drop table Fiscal_Calendar;
+
+Drop table Product;
+-- dropping table means you'd have to re-import the data
+
+
+Create table Sales(
+
+Sale_ID INT NOT NULL,
+
+SALES_Rep_ID INT,
+
+Product_ID INT,
+
+Date DATE,
+
+PRIMARY KEY(Sale_ID)
+
+);
+
+
+Create table Sales_Rep(
+
+Sales_Rep_ID INT NOT NULL,
+
+First_Name VARCHAR,
+
+Last_Name VARCHAR,
+
+PRIMARY KEY(Sales_Rep_ID)
+
+);
+
+ 
+
+Create table Fiscal_Calendar(
+
+Day DATE NOT NULL,
+
+Day_Of_Week VARCHAR,
+
+Week_Number INT
+
+);
+
+
+Create table Product(
+
+Product_ID INT NOT NULL,
+
+Product_Name VARCHAR,
+
+Product_Class VARCHAR,
+
+Price DECIMAL,
+
+COGS DECIMAL,
+
+PRIMARY KEY (Product_ID)
+
+)
+
+-- select statement results shows up in results. running without select will show up in a new tab at the bottom of the application
+
+SELECT * FROM fiscal_calendar ;
+
+SELECT AVG( price ) FROM product ; 
+-- min, max, sum, count, GROUP BY
+
+SELECT product_class, SUM(price) FROM product
+    GROUP BY product_class ;
+    
+
+SELECT sale_id FROM sales 
+    JOIN sales_rep 
+    ON sales.sales_rep_ID = sales_rep.Sales_Rep_ID 
+    
+    WHERE sales_rep.first_name = 'Rick' AND sales_rep.Last_Name = 'Sanchez' ; 

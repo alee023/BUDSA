@@ -1,0 +1,31 @@
+﻿ProductID,ProductName,ProductClass,Price,COGS
+1,Sweater,Clothing,31.5,10
+2,T-Shirt,Clothing,17,5.5
+3,V-Neck,Clothing,20,6
+4,Tank top,Clothing,10,3.5
+5,Shorts,Clothing,15.5,5
+6,Jeans,Clothing,27.5,10
+7,Sweatshirt,Clothing,35,11
+8,Sandals,Shoes,10,3.5
+9,Sneakers,Shoes,20,6.5
+10,Flip Flops,Shoes,10.5,3.5
+11,Boots,Shoes,36,12
+12,Crocs,Shoes,34,11
+13,Slippers,Shoes,10,3
+14,Doll,Toys and Games,12.5,4
+15,Monopoly,Toys and Games,22.5,7.5
+16,Legos,Toys and Games,35,11.5
+17,Light Saber,Toys and Games,22,7
+18,Tiara,Toys and Games,7.5,2.5
+19,Uno,Toys and Games,9,3
+20,Jump Rope,Toys and Games,6,2
+21,Ball,Toys and Games,5,1.5
+22,Pencils,Office Supplies,2.5,50
+23,Pens,Office Supplies,4.5,1.5
+24,Notebook,Office Supplies,8,3
+25,Expo Markers,Office Supplies,10.5,3.5
+26,Highters,Office Supplies,8,2.5
+27,Sticky Notes,Office Supplies,3.5,1.5
+28,Paper Clips,Office Supplies,4,1
+29,Calender,Office Supplies,12.5,4
+30,Glue Sticks,Office Supplies,9.5,3
